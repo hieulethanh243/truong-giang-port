@@ -2,6 +2,7 @@
 import "./globals.css";
 import { poppins } from "./fonts";
 import { useSmoothScroll } from "@/lib/lenis";
+import Header from "./components/common/Header";
 
 export default function RootLayout({
   children,
@@ -12,7 +13,10 @@ export default function RootLayout({
 
   return (
     <html lang="en" className={poppins.className}>
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
