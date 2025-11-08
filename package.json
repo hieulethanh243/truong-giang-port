@@ -1,6 +1,6 @@
 {
-  "name": "sansa-clone",
-  "version": "0.1.0",
+  "name": "truong-giang-portfolio",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -11,6 +11,7 @@
   "dependencies": {
     "@studio-freight/lenis": "^1.0.42",
     "framer-motion": "^12.23.24",
+    "gsap": "^3.13.0",
     "next": "16.0.1",
     "react": "19.2.0",
     "react-dom": "19.2.0"
