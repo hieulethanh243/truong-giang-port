@@ -1,11 +1,13 @@
 import { About } from "./components/sections/About";
-import HeroSection from "./components/sections/Hero";
+import { Hero } from "./components/sections/Hero";
+import { ProjectsFramer } from "./components/sections/Projects";
 
 export default function Home() {
   return (
     <main>
-      <HeroSection />
+      <Hero />
       <About />
+      <ProjectsFramer />
 
       <div className="min-h-screen  flex items-center justify-center">
         <div className="text-center px-6">

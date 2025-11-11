@@ -2,9 +2,9 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-export default function HeroSection() {
+export function Hero() {
   return (
-    <section className="relative flex flex-col items-center justify-start pt-[10px] overflow-hidden bg-white">
+    <section className="relative flex flex-col items-center justify-start pt-[10px] overflow-hidden bg-white mb-5 md:mb-10 lg:mb-16">
       <motion.div
         initial={{ opacity: 0, scale: 1, y: 60 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}

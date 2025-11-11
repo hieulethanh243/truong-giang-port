@@ -27,7 +27,7 @@ const itemVariants: Variants = {
 export function About() {
   return (
     <motion.section
-      className="max-w-[1900px] mx-auto p-8 md:p-16 lg:p-24"
+      className="max-w-[1900px] mx-auto p-8 md:p-16 lg:p-24 mb-5 md:mb-10 lg:mb-16"
       variants={containerVariants}
       initial="hidden"
       whileInView="visible"
@@ -45,7 +45,7 @@ export function About() {
         </motion.div>
 
         <motion.h1
-          className="lg:col-start-3 lg:col-span-10 text-7xl md:text-8xl lg:text-9xl font-extrabold tracking-tighter mt-4 lg:mt-0"
+          className="lg:col-start-3 lg:col-span-10 text-7xl md:text-8xl lg:text-9xl font-medium tracking-tighter mt-4 lg:mt-0"
           variants={itemVariants}
         >
           <span className="block">About &</span>
